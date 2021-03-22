@@ -26,7 +26,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Line_Profile_3B20210318124435400" name="Line_Profile_3B">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="L1C_T52XDF_A025784_20200530T040550_B0820210312140139368" name="L1C_T52XDF_A025784_20200530T040550_B08">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="L1C_T52XDF_A025784_20200530T040550_B0820210312140139368" name="L1C_T52XDF_A025784_20200530T040550_B08">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="L1C_T52WDE_A011770_20190608T032544_B0820210312140129583" name="L1C_T52WDE_A011770_20190608T032544_B08">
@@ -43,10 +43,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>614339.5631864438764751</xmin>
-      <ymin>8032286.41112574748694897</ymin>
-      <xmax>619258.76304900785908103</xmax>
-      <ymax>8036846.81318773701786995</ymax>
+      <xmin>602441.87917916115839034</xmin>
+      <ymin>8022704.10871884785592556</ymin>
+      <xmax>612076.19939722691196948</xmax>
+      <ymax>8028070.91509216092526913</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -131,9 +131,9 @@
         <legendlayerfile isInOverview="0" layerid="Line_Profile_3B20210318124435400" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="L1C_T52XDF_A025784_20200530T040550_B08" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="L1C_T52XDF_A025784_20200530T040550_B08" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="L1C_T52XDF_A025784_20200530T040550_B0820210312140139368" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="L1C_T52XDF_A025784_20200530T040550_B0820210312140139368" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="L1C_T52WDE_A011770_20190608T032544_B08" showFeatureCount="0">
@@ -1381,6 +1381,12 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>125.66395500000000141</xmin>
+        <ymin>72.36053900000000283</ymin>
+        <xmax>125.68090399999999818</xmax>
+        <ymax>72.3668920000000071</ymax>
+      </extent>
       <id>Line_Profile_3A20210318124624475</id>
       <datasource>../../../data/1_GPS/bobrov_3/Line_Profile_3A.shp</datasource>
       <keywordList>
